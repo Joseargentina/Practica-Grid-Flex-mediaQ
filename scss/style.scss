@@ -1,28 +1,13 @@
-@use 'base/reset';
-@use 'base/variables';
-@use 'base/globales';
+@import './base/variables';
+@import './base/globales';
+@import './components/botones';
 
 
-.btn {
-    padding: 1rem;
-    background-color: var(--boton);
-    border-radius: 10px;
-    font-size: 1.5rem ;
-    color: var(--negro);
-    text-transform: uppercase;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: rgb(59 150 136 / 97%);
-    transform: scale(1.1);
-    color: #fff;
-}
 
 body {
-    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    background-color: #F2F2F2;
     line-height: 1.5;
     letter-spacing: 0.2rem;
     height: 100vh;
