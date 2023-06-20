@@ -3,18 +3,20 @@
         font-size: 1.5rem;
     }
     .plantas {
-        height: 27rem;
-        max-width: 60rem;
+        height: 53rem;
+        max-width: 73rem;
     }
     .planta__titulo {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
     .planta__parrafo {
-        font-size: 1rem;
+        line-height: 1.1;
+        font-size: 1.8rem;
         text-align: left;
+        margin-bottom: 1rem;
     }
     .planta__boton {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
     .planta:nth-child(4){
         background-size: 100% 120%;
@@ -32,28 +34,45 @@
         font-size: 2rem;
     }
     .nosotros {
-        grid-template-rows: 43rem;
+        grid-template-rows: 81rem;
     }
     .nosotros__contenedor-2 {
         padding: 1rem;
         text-align: center;
         letter-spacing: normal;
-        line-height: normal;
-        font-size: 1.5rem;
+        line-height: 1.5;
+        font-size: 2.4rem;
+        justify-content: space-evenly;
     }
     .nosotros__titulo-1 {
         text-align: center;
+        font-size: 4.5rem;
+    }
+    .nosotros__boton {
+        font-size: 6.5rem;
+    }
+    .nosotros__titulo-2 {
+        font-size: 4rem;
+    }
+    .nosotros__parrafo {
+        font-size: 2rem;
+    }
+    .nosotros__parrafo-2 {
+        font-size: 2rem;
+    }
+    .nosotros__boton-2 {
+        font-size: 2rem;
     }
 } 
 
-@media (max-width: 798px) {
+@media (max-width: 768px) {
     .nav__lista {
         flex-direction: column;
         font-size: 1.5rem;
     }
 
     .banner{
-        height: 30rem;
+        height: 55rem;
     }
     .banner__titulo {
         font-size: 3.3rem;
@@ -63,9 +82,18 @@
     }
 
     .plantas {
-        max-width: 44rem;
-        height: 41rem;
+        max-width: 63rem;
+        height: 50rem;
         gap: 1rem;
+    }
+    .planta__titulo {
+        font-size: 2.5rem;
+    }
+    .planta__parrafo {
+        font-size: 1.6rem;
+    }
+    .planta__boton {
+        font-size: 1.4rem;
     }
 
     .planta:nth-child(1) {
@@ -79,6 +107,9 @@
     .planta:nth-child(3) {
         background-position: bottom;
     }
+    .nosotros {
+        grid-template-rows: 67rem;
+    }
     .nosotros__parrafo-2 {
         display: none;
     }
@@ -86,35 +117,41 @@
         justify-content: space-around;
         line-height: 1.3;
     }
+    .nosotros__titulo-1 {
+        font-size: 4.2rem;
+    }
     .nosotros__parrafo {
         letter-spacing: 1px;
+        font-size: 2rem;
     }
     .nosotros__boton {
-        font-size: 1rem;
+        font-size: 5.7rem;
     }
 
 } 
 
-
-
 @media (max-width: 480px) {
+    .banner {
+        height: 50rem;
+        justify-content: end;
+    }
     .banner__titulo {
-        font-size: 2.7rem;
+        font-size: 2.9rem;
     }
     .banner p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .banner__boton {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .plantas {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
-        max-width:fit-content;
-        height: 69rem;
+        max-width:90%;
+        height: 115rem;
         gap: 1.5rem;
-        margin: 1rem 1rem;
+        margin: 1rem auto;
     }
     .planta:nth-child(1){
         grid-row: 1/2;
@@ -124,7 +161,7 @@
     .planta:nth-child(2){
         grid-row: 2/3;
         grid-column: 1/2;
-        background-size: 100% 120%;
+        background-size: 100% 105%;
         background-position: center;
     }
     .planta:nth-child(3){
@@ -139,26 +176,40 @@
     }
     .planta__titulo {
         font-size: 1.4rem;
+        display: none;
     }
     .planta__parrafo {
         font-size: 0.9rem;
         text-align: left;
+        display: none;
     }
     .planta__boton {
         font-size: 0.8rem;
+        display: none;
     }
     .nosotros{
         grid-template-columns: none;
         margin: 3rem 0;
     }
-    .nosotros__boton-2 {
-        font-size: 0.9rem;
-    }
-    .nosotros__titulo-1 {
-        font-size: 3rem;
+    .nosotros__boton {
+        font-size: 4.5rem;
     }
     
+    .nosotros__titulo-1 {
+        font-size: 3.8rem;
+    }
+    .nosotros__contenedor-2 {
+        font-size: 2rem;
+    }
     .nosotros__titulo-2 {
         font-size: 2.6rem;
+    }
+    .nosotros__parrafo {
+        margin-top: 1rem;
+        letter-spacing: 0.8px;
+    }
+    .nosotros__boton-2 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
     }
 } 

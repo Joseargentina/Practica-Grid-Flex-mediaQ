@@ -7,7 +7,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
-    background-color: #F2F2F2;
+    background-color: #c5bfbf80;
     line-height: 1.5;
     letter-spacing: 0.2rem;
     height: 100vh;
@@ -34,12 +34,13 @@ body {
     margin-bottom: 1rem;
     color: coral;
     padding-top: 3rem;
+    text-shadow: 2px 3px #030304;
 
 }
 .nav {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    background-color: #4a997f;
     font-size: 2rem;
     align-items: center;
     width: 100%;
@@ -95,8 +96,8 @@ section {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
-    height: 40rem;
-    width: 80rem;
+    height: 65rem;
+    max-width: 95rem;
     margin: 5rem auto;
 }
 
@@ -126,22 +127,21 @@ section {
     grid-column: 1/3;
     background-image: url('../assets/img/card1.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .planta:nth-child(2) {
     grid-row: 1/2;
     grid-column: 3/4;
     background-image: url('../assets/img/card2.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 105% 100%;
 }
 .planta:nth-child(3) {
     grid-row: 1/2;
     grid-column: 4/5;
     background-image: url('../assets/img/card3.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: 110% 100%;
 }
 .planta:nth-child(4) {
     grid-row: 2/3;
@@ -157,7 +157,7 @@ section {
 .nosotros {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50rem;
+    grid-template-rows: 60rem;
 }
 .nosotros__contenedor-1 {
     background-image: url('../assets/img/nosotros2.jpg');
@@ -185,18 +185,27 @@ section {
     font-size: 1.6rem;
 }
 .nosotros__boton {
-    font-size: 5.2rem;
+    font-size: 6rem;
     opacity: 0.8;
     margin: 2rem;
 }
 .nosotros__titulo-1 {
-    opacity: 0.6;
-    font-size: 3.3rem;
+    opacity: 0.8;
+    font-size: 4.3rem;
 }
 
 .nosotros__titulo-2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-shadow: 1px 7px 0 #030304;
+} 
+
+.nosotros__parrafo {
+    margin-top: 1rem;
+    font-size: 2.3rem;
+}
+.nosotros__parrafo-2 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
 }
 
 .footer {
