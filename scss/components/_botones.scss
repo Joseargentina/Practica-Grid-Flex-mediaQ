@@ -1,19 +1,9 @@
-@use '../base/variables' as v;
-
 .btn {
-    padding: 1rem;
-    background-color: v.$boton;
-    border-radius: 10px;
-    font-size: 1.5rem ;
-    color: v.$negro;
-    text-transform: uppercase;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    @include btn($negro, $boton);
 }
 
 .btn:hover {
     background-color: rgb(59 150 136 / 97%);
     transform: scale(1.1);
-    color: v.$blanco;
+    color: $blanco;
 }

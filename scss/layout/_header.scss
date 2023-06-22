@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: header;
+}
+
+.header__titulo {
+    font-size: 4rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    color: $titulo;
+    padding-top: 3rem;
+    text-shadow: 2px 3px #030304;
+
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color: $nav;
+    font-size: 2rem;
+    align-items: center;
+    width: 100%;
+}
+.nav__lista {
+    display: flex;
+    padding: 1.5rem;
+    gap: 2rem;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-image: url(../assets/img/banner-actividad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__titulo {
+    font-size: 5rem;
+    color: $blanco;
+    text-shadow: 2px 3px #030304;
+    opacity: 0.9;
+}
+
+.banner p {
+    color: $grisClaro;
+    font-size: 2.5rem;
+}
+
+.banner__boton {
+    background-color: $boton;
+    font-size: 1.5rem ;
+}

@@ -1,0 +1,67 @@
+@media (max-width: 1024px) {
+    .nav {
+        font-size: 1.5rem;
+    }
+    .plantas {
+        height: 53rem;
+        max-width: 73rem;
+    }
+    .planta__titulo {
+        font-size: 2.5rem;
+    }
+    .planta__parrafo {
+        line-height: 1.1;
+        font-size: 1.8rem;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+    .planta__boton {
+        font-size: 1.6rem;
+    }
+    .planta:nth-child(4){
+        background-size: 100% 120%;
+    }
+    
+    .banner{
+        height: 35rem;
+        justify-content: end;
+        padding: 1.5rem;
+    }
+    .banner__titulo {
+        font-size: 3.3rem;
+    }
+    .banner p {
+        font-size: 2rem;
+    }
+    .nosotros {
+        grid-template-rows: 81rem;
+    }
+    .nosotros__contenedor-2 {
+        padding: 1rem;
+        text-align: center;
+        letter-spacing: normal;
+        line-height: 1.5;
+        font-size: 2.4rem;
+        justify-content: space-evenly;
+    }
+    .nosotros__titulo-1 {
+        text-align: center;
+        font-size: 4.5rem;
+    }
+    .nosotros__boton {
+        font-size: 6.5rem;
+    }
+    .nosotros__titulo-2 {
+        font-size: 4rem;
+    }
+    .nosotros__parrafo {
+        font-size: 2rem;
+    }
+    .nosotros__parrafo-2 {
+        font-size: 2rem;
+    }
+    .nosotros__boton-2 {
+        font-size: 2rem;
+    }
+} 
+

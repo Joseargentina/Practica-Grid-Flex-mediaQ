@@ -1,0 +1,15 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    background-color: $primario;
+    line-height: 1.5;
+    letter-spacing: 0.2rem;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+}
