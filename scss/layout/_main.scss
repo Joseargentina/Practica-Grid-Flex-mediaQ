@@ -54,6 +54,8 @@
     display: none;
 }
 
+/*seccion nosotros*/
+
 .nosotros{
     display: grid;
     grid-template-columns: 1fr ;
@@ -80,7 +82,7 @@
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    padding: 1rem;
+    padding: 3rem;
     margin: 0 auto;
     color: $grisClaro;
     font-size: 1.6rem;
