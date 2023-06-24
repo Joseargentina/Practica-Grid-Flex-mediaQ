@@ -1,5 +1,5 @@
 .btn {
-    @include btn($boton, $blanco);
+    @include btn($negro, $bg-color);
 }
 
 .btn:hover {

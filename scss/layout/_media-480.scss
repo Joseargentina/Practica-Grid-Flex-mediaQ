@@ -1,0 +1,44 @@
+@media (min-width: 480px) {
+
+    /*seccion banner*/
+
+    .banner {
+        height: 40rem;
+    }
+    .banner__titulo {
+        font-size: 3rem;
+    }
+
+
+    /*plantas*/
+    .plantas {
+        height: 92rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        }
+    .planta:nth-child(1){
+        grid-row: 1/2;
+        grid-column: 1/2;
+        background-position: center;
+        background-size: 134% 100%;
+    }
+    .planta:nth-child(2){
+        grid-row: 1/2;
+        grid-column: 2/3;
+        background-position: center;
+        background-size: 114% 100%;
+    }
+    .planta:nth-child(3){
+        grid-row: 2/3;
+        grid-column: 1/2;
+        background-position: center;
+        background-size: 114% 100%;
+    }
+    .planta:nth-child(4){
+        grid-row: 2/3;
+        grid-column: 2/3;
+        background-position: right;
+        background-size: 133% 100%;
+    }
+    
+} 

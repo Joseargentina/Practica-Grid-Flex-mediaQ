@@ -1,10 +1,35 @@
 @media (min-width: 1024px) {
-    .nav {
-        font-size: 1.5rem;
+    .header__titulo {
+        font-size: 4.8rem;
     }
+    .nav__lista {
+        font-size: 2rem;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    /*seccion banner*/
+    
+    .banner{
+        height: 72rem;
+        justify-content: center;
+        padding: 1.5rem;
+    }
+    .banner__titulo {
+        font-size: 4.5rem;
+    }
+    .banner p {
+        font-size: 2.5rem;
+    }
+    .banner__boton {
+        font-size: 1.6rem;
+    }
+
+
+    /*seccion plantas*/
+
     .plantas {
-        height: 53rem;
-        max-width: 73rem;
+        height: 70rem;
+        max-width: 88rem;
     }
     .planta__titulo {
         font-size: 2.5rem;
@@ -18,31 +43,12 @@
     .planta__boton {
         font-size: 1.6rem;
     }
-    .planta:nth-child(4){
-        background-size: 100% 120%;
-    }
     
-    .banner{
-        height: 35rem;
-        justify-content: end;
-        padding: 1.5rem;
-    }
-    .banner__titulo {
-        font-size: 3.3rem;
-    }
-    .banner p {
-        font-size: 2rem;
-    }
+    /* nosotros*/
+
     .nosotros {
-        grid-template-rows: 81rem;
-    }
-    .nosotros__contenedor-2 {
-        padding: 1rem;
-        text-align: center;
-        letter-spacing: normal;
-        line-height: 1.5;
-        font-size: 2.4rem;
-        justify-content: space-evenly;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80rem;
     }
     .nosotros__titulo-1 {
         text-align: center;
@@ -51,17 +57,30 @@
     .nosotros__boton {
         font-size: 6.5rem;
     }
+
+    .nosotros__contenedor-1 {
+        background-size: cover;
+    }
+
+    .nosotros__contenedor-2 {
+        padding: 1rem;
+        text-align: center;
+        line-height: 1.8;
+        font-size: 2.4rem;
+        justify-content: space-evenly;
+    }
+    
     .nosotros__titulo-2 {
+        text-shadow: $shadow;
         font-size: 4rem;
+        margin-top: 2rem;
     }
     .nosotros__parrafo {
         font-size: 2rem;
     }
-    .nosotros__parrafo-2 {
-        font-size: 2rem;
-    }
     .nosotros__boton-2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
     }
 } 
 
