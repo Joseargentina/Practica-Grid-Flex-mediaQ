@@ -331,6 +331,20 @@ body {
 .footer {
   grid-area: footer;
 }
+.footer__nav {
+  display: flex;
+}
+.footer__list {
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+}
+.footer__enlace {
+  font-size: 2.8rem;
+}
+.footer__copyright {
+  text-align: center;
+}
 
 @media (min-width: 480px) {
   /*seccion banner*/
