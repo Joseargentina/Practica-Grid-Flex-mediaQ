@@ -1,8 +1,14 @@
-@mixin flex ($display, $direction, $justify, $align){
-    display: $display;
+@mixin flex ($direction, $justify, $align){
+    display: flex;
     flex-direction: $direction;
     justify-content: $justify;
     align-items: $align;
+}
+@mixin grid ($valor, $separacion){
+    display: grid;
+    grid-template-columns: repeat($valor, 1fr);
+    gap:$separacion;
+    @content;
 }
 
 @mixin btn ($color, $bg-color) {

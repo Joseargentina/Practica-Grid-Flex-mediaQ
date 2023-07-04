@@ -207,10 +207,11 @@ body {
 
 /*seccion nosotros*/
 .nosotros {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 60rem;
   margin: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0;
+  grid-template-rows: 60rem;
 }
 
 .nosotros__contenedor-1 {
