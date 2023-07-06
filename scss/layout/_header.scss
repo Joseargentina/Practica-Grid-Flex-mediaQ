@@ -31,34 +31,3 @@
     justify-content: center;
     align-items: center;
 }
-
-/*seccion banner*/
-
-.banner {
-    background-image: url(../assets/img/banner-actividad.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 35rem;
-    justify-content: end;
-    padding: 1rem;
-}
-
-.banner__titulo {
-    font-size: 2.9rem;
-    color: $blanco;
-    text-shadow: 2px 3px #030304;
-    opacity: 0.9;
-}
-
-.banner p {
-    color: $grisClaro;
-    font-size: 1.7rem;
-}
-
-.banner__boton {
-    font-size: 1.2rem;
-}

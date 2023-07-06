@@ -2,6 +2,40 @@
     grid-area: main;
 }
 
+/*seccion banner*/
+
+.banner {
+    background-image: url(../assets/img/banner-actividad.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35rem;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.banner__titulo {
+    font-size: 2.9rem;
+    color: $blanco;
+    text-shadow: 2px 3px #030304;
+    opacity: 0.9;
+}
+
+.banner p {
+    color: $grisClaro;
+    font-size: 1.7rem;
+}
+
+.banner__boton {
+    font-size: 1.2rem;
+}
+
+
+/*seccion plantas*/
+
 .plantas {
     display: grid;
     grid-template-columns: 1fr;
@@ -12,7 +46,7 @@
     margin: 1rem auto;
 }
 .planta:nth-child(1){
-    background-image: url('../../assets/img/card1.jpg');
+    background-image: url('../assets/img/card1.jpg');
     grid-row: 1/2;
     grid-column: 1/2;
     background-size: 100% 100%;
